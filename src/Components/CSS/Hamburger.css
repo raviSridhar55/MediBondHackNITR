@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 30px;
+  height: 25px;
+  right: 30px;
+  top: 22px;
+  margin: auto 0;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #fff;
+}
+
+.bm-burger-bars-clicked {
+  background: #ff4b2b;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #ff4b2b;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+a:focus {
+  outline: none;
+}
+.listItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /* height: 100vh; */
+}
+
+.ham-up,
+.ham-down {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  text-align: right;
+  width: 100%;
+}
+
+.listItems:focus {
+  outline: none;
+}
+
+/*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+.bm-menu-wrap {
+  /* position: fixed; */
+  height: 100%;
+  overflow-y: visible;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #0009;
+  backdrop-filter: blur(12px);
+  box-shadow: -8px 13px 35px -3px rgba(7, 7, 7, 0.55);
+  -webkit-box-shadow: -8px 13px 35px -3px rgba(7, 7, 7, 0.55);
+  -moz-box-shadow: -8px 13px 35px -3px rgba(7, 7, 7, 0.55);
+  /* padding: 2.5em 1.5em 0; */
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  text-align: right;
+  padding: 2em;
+  border: none;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+  padding-top: 10px;
+  font-size: 1.5rem;
+}
+
+.bm-item-hover {
+  background: #ff4b2b;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.something {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.hoverTag:hover {
+  color: #ff4b2b;
+}

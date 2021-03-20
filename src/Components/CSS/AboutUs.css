@@ -1,0 +1,15 @@
+#about-us {
+  margin-top: 50px;
+  height: 52vh;
+}
+
+.about-us {
+  display: grid;
+  place-items: center;
+  text-align: justify;
+}
+
+.about-us ul {
+  display: grid;
+  place-items: center;
+}

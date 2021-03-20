@@ -1,0 +1,8 @@
+body {
+  background-color: #ffece9;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}

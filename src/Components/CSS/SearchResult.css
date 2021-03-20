@@ -1,0 +1,25 @@
+#search-confirm {
+  width: 100%;
+  height: auto;
+  display: grid;
+  place-items: center;
+}
+
+.search-confirm {
+  background-color: #fff;
+  width: 1000px;
+  height: auto;
+  box-shadow: -8px 13px 35px -3px rgba(7, 7, 7, 0.55);
+  -webkit-box-shadow: -8px 13px 35px -3px rgba(7, 7, 7, 0.55);
+  -moz-box-shadow: -8px 13px 35px -3px rgba(7, 7, 7, 0.55);
+  display: grid;
+  place-items: center;
+  padding: 20px;
+}
+
+.confirm-med {
+  text-align: center;
+  border-top: 1px solid #333;
+
+  padding: 8px 0;
+}
