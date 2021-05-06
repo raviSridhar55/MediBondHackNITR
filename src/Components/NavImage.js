@@ -4,6 +4,7 @@ import Search from './Inner Components/Search';
 import './CSS/NavIamge.css';
 import './CSS/SearchResult.css';
 import SearchConfirm from './SearchResult/SearchConfirm';
+import PharmResults from './SearchResult/PharmResults';
 
 const NavImage = () => {
   const searchMeds = (brand, product) => {
@@ -27,6 +28,7 @@ const NavImage = () => {
         <Search searchMeds={searchMeds} />
         <div className={`${state ? 'show-confirm' : 'hide-confirm'}`}>
           <SearchConfirm />
+          <PharmResults />
         </div>
       </div>
     </div>

@@ -1,0 +1,63 @@
+.pharmacyOuterbox {
+  height: auto;
+  width: 1000px;
+  background-color: white;
+  padding: 10px;
+  /* margin-top: 100px; */
+  margin: 100px auto;
+  box-shadow: -8px 13px 35px -3px rgba(7, 7, 7, 0.55);
+  -webkit-box-shadow: -8px 13px 35px -3px rgba(7, 7, 7, 0.55);
+  -moz-box-shadow: -8px 13px 35px -3px rgba(7, 7, 7, 0.55);
+}
+
+.pharmacyOuterbox h1 {
+  text-align: center;
+  color: #ff4b2b;
+}
+
+#card {
+  width: 900px;
+  height: 250px;
+  background-color: #ffece9;
+  margin: 20px auto;
+  box-shadow: 3px 2px 13px 0px rgba(0, 0, 0, 0.31);
+  -webkit-box-shadow: 3px 2px 13px 0px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 3px 2px 13px 0px rgba(0, 0, 0, 0.31);
+}
+
+.card {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 15px;
+}
+
+.details {
+  height: 100%;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.details-l,
+.details-r {
+  height: 100%;
+}
+
+.img {
+  width: 300px;
+  height: 100%;
+}
+
+.img img {
+  height: 100%;
+  width: 100%;
+}
+
+.details-r {
+  display: flex;
+  align-items: flex-end;
+
+  justify-content: flex-end;
+}
