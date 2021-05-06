@@ -1,19 +1,36 @@
-import React from 'react';
+import React, { useState } from 'react';
 import navBackGround from './img/navBackGround.png';
 import Search from './Inner Components/Search';
 import './CSS/NavIamge.css';
+import './CSS/SearchResult.css';
 import SearchConfirm from './SearchResult/SearchConfirm';
 
-export default function NavImage() {
+const NavImage = () => {
+  const searchMeds = (brand, product) => {
+    if (brand === '' && product === '') {
+      alert('Type valid meds');
+    } else {
+      console.log(brand);
+      console.log(product);
+      setstate(true);
+    }
+  };
+
+  const [state, setstate] = useState(false);
+
   return (
     <div>
       <div className='navImage-main'>
         <img src={navBackGround} alt='Nav' className='imgNavStyle'></img>
       </div>
       <div className='search'>
-        <Search />
-        <SearchConfirm />
+        <Search searchMeds={searchMeds} />
+        <div className={`${state ? 'show-confirm' : 'hide-confirm'}`}>
+          <SearchConfirm />
+        </div>
       </div>
     </div>
   );
-}
+};
+
+export default NavImage;
