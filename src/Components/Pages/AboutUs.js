@@ -19,14 +19,14 @@ const AboutUs = () => {
           </p>
 
           <h1>Meet the brains behind Medibond:</h1>
-          <p className='lead'>
+          {/* <p className='lead'>
             We are a bunch of CSE geeks of third years with a common interest in
             web development.
-          </p>
-          <h3>Team:</h3>
+          </p> */}
+          {/* <h3>Team:</h3> */}
           <ul>
-            <li>Aanchal Saxena</li>
-            <li>Akshahta Bihany</li>
+            {/* <li>Aanchal Saxena</li>
+            <li>Akshahta Bihany</li> */}
             <li>Tanish Vemu</li>
             <li>Devarakonda Venkata Ravi Sridhar</li>
           </ul>

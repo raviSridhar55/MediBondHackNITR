@@ -14,7 +14,7 @@ const PharmacyCard = () => {
           <div className='details-l'>
             <h3>RAMA PHARMACY</h3>
             <p className='lead'>Mumbai, sector-11</p>
-            <h3>PRICE $99</h3>
+            <h3>PRICE &#8377;99</h3>
             <p>
               Net banking <br />
               And Upi Available
