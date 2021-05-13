@@ -18,11 +18,11 @@ const SearchConfirm = () => {
             <td className='confirm-med'>Dolo</td>
             <td className='confirm-med'>1000mg</td>
           </tr>
-          <tr>
+          {/* <tr>
             <td className='confirm-med'>Micro Lab ltd.</td>
             <td className='confirm-med'>Dolo</td>
             <td className='confirm-med'>1000mg</td>
-          </tr>
+          </tr> */}
         </table>
       </div>
     </div>

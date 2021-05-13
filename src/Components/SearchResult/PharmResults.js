@@ -12,7 +12,6 @@ const PharmResults = () => {
         Nearest Pharmacies
       </h2>
       <PharmacyCard />
-      <PharmacyCard />
     </div>
   );
 };
